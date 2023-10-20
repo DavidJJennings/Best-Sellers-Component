@@ -1,26 +1,33 @@
-export const books = [
+import bookimg1 from "./images/bookimg1.jpg";
+import bookimg2 from "./images/bookimg2.jpg";
+import bookimg3 from "./images/bookimg3.jpg";
+import bookimg4 from "./images/bookimg4.jpg";
+
+const books = [
   {
     title: "The Last Devil To Die",
     author: "Richard Osman",
-    img: "./images/bookimg1.jpg",
+    img: bookimg1,
     id: 1,
   },
   {
     title: "5 Ingredients Mediterranean",
     author: "Jamie Oliver",
-    img: "./images/bookimg2.jpg",
+    img: bookimg2,
     id: 2,
   },
   {
     title: "Guiness World Records 2024",
     author: "Guiness World Records",
-    img: "./images/bookimg3.jpg",
+    img: bookimg3,
     id: 3,
   },
   {
     title: "FunnyBones",
     author: "Janet & Allan Ahlberg",
-    img: "./images/bookimg4.jpg",
+    img: bookimg4,
     id: 4,
   },
 ];
+
+export default books;

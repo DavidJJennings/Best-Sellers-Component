@@ -5,11 +5,13 @@
 }
 
 html,
-body,
 #root {
-  height: 100vh;
-  width: 100vw;
   font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 h2 {
@@ -38,6 +40,7 @@ body {
 }
 
 .book {
+  position: relative;
   text-align: center;
   background-color: white;
   width: 90%;
@@ -47,4 +50,16 @@ body {
 
 .book img {
   max-height: 150px;
+}
+
+.rank {
+  font-size: 0.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  width: 45px;
+  height: 30px;
+  background-color: orange;
 }
